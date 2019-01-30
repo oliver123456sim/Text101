@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af040fc7e8d57344981a81b1d4af966b, type: 3}
+  m_Name: StartingState
+  m_EditorClassIdentifier: 
+  storyText: "- Der st\xE5r mange vagter, ved porten. Hvordan skal vi komme forbi?\r\n-
+    T\xE6l hvor mange der st\xE5r ved porten, s\xE5 kan jeg finde en m\xE5de vi kan
+    komme forbi p\xE5\n- Der st\xE5r 10 vagter, men to af dem spiller kort\n- Okay...
+    Jeg har en ide\n- Hvordan kommer vi s\xE5 forbi?\n\n Hvad g\xF8r de?\n1. De dr\xE6ber
+    dem\r\n2. De g\xE5r stille og roligt forbi uden vagterne opdager dem\n3. De sp\xF8rg
+    vagterne om de m\xE5 komme forbi\n4. De overgiver sig og kommer i f\xE6ngsel"
+  nextStates:
+  - {fileID: 11400000, guid: 7dab18fc0a44aaa4f9bcb1d826b58078, type: 2}
+  - {fileID: 11400000, guid: fb43f6caa52dd4c49a0dd09cdfd5a8d8, type: 2}

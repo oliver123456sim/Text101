@@ -10,6 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: af040fc7e8d57344981a81b1d4af966b, type: 3}
-  m_Name: Room 2
+  m_Name: rigtigt1
   m_EditorClassIdentifier: 
-  storyText: "S\xE5 m\xE5 det her v\xE6re det andet rum"
+  storyText: "RIGTIGT!\nDe sniger sig stille og roligt forbi vagterne, uden de bliver
+    opdaget.\n\nKlik H for at komme vidre til n\xE6ste opgave."
+  nextStates: []

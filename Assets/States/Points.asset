@@ -10,6 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: af040fc7e8d57344981a81b1d4af966b, type: 3}
-  m_Name: Room 1
+  m_Name: Points
   m_EditorClassIdentifier: 
-  storyText: "Det her m\xE5 v\xE6re det f\xF8rste rum"
+  storyText: 0
+  nextStates: []

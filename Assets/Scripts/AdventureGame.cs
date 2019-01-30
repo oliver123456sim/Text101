@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
-using System.Drawing;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -11,8 +10,6 @@ public class AdventureGame : MonoBehaviour {
     [SerializeField] State startingState;
 
     State state;
-
-    int points = 0;
 
     // Start is called before the first frame update
     void Start() {
@@ -39,7 +36,6 @@ public class AdventureGame : MonoBehaviour {
         else if (Input.GetKeyDown(KeyCode.H))
         {
             state = nextStates[2];
-            points = points + 1;
         }
         textComponent.text = state.GetStateStory();
     }
