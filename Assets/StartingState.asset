@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   storyText: "- Der er vagter, ved porten!\n- Hvordan kommer vi forbi?\r\n- T\xE6l
     hvor mange vagter der st\xE5r ved porten, s\xE5 kan jeg finde en m\xE5de vi kan
-    komme forbi p\xE5\n- Der st\xE5r 10 vagter og en oppe p\xE5 taget\n- Okay... Jeg
-    har en ide\n- Hvordan kommer vi s\xE5 forbi?\n\n1. De dr\xE6ber dem\r\n2. De g\xE5r
-    stille og roligt forbi uden de opdager os"
+    komme forbi p\xE5\n- Der st\xE5r 10 vagter, men to af dem spiller kort\n- Okay...
+    Jeg har en ide\n- Hvordan kommer vi s\xE5 forbi?\n\n Hvad g\xF8r de?\nA. De dr\xE6ber
+    dem\r\nB. De g\xE5r stille og roligt forbi uden de opdager os\nC. De sp\xF8rg
+    vagterne om de m\xE5 komme forbi\nD. De overgiver sig og kommer i f\xE6ngsel"

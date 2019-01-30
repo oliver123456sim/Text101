@@ -1,5 +1,12 @@
-Der er vagter!
-Hvordan kommer vi forbi?
+- Der er vagter, ved porten!
+- Hvordan kommer vi forbi?
+- Tæl hvor mange vagter der står ved porten, så kan jeg finde en måde vi kan komme forbi på
+- Der står 10 vagter og en oppe på taget
+- Okay... Jeg har en ide
+- Hvordan kommer vi så forbi?
 
-1. Vi dræber dem
-2. Vi går stille og roligt forbi uden de opdager os
+ Hvad gør de?
+A. De dræber dem
+B. De går stille og roligt forbi uden de opdager os
+C. De spørg vagterne om de må komme forbi
+D. De overgiver sig og kommer i fængsel
