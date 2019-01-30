@@ -18,3 +18,8 @@ MonoBehaviour:
     Jeg har en ide\n- Hvordan kommer vi s\xE5 forbi?\n\n Hvad g\xF8r de?\nA. De dr\xE6ber
     dem\r\nB. De g\xE5r stille og roligt forbi uden de opdager os\nC. De sp\xF8rg
     vagterne om de m\xE5 komme forbi\nD. De overgiver sig og kommer i f\xE6ngsel"
+  nextStates:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
