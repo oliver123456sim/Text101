@@ -4,7 +4,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class AdventureGame : MonoBehaviour {
+public class AdventureGame : MonoBehaviour
+{
 
     [SerializeField] Text textComponent;
     [SerializeField] State startingState;
@@ -12,30 +13,34 @@ public class AdventureGame : MonoBehaviour {
     State state;
 
     // Start is called before the first frame update
-    void Start() {
+    void Start()
+    {
         state = startingState;
         textComponent.text = state.GetStateStory();
     }
 
     // Update is called once per frame
-    void Update() {
+    void Update()
+    {
         ManageState();
     }
-
     private void ManageState()
     {
         var nextStates = state.GetNextStates();
-        if(Input.GetKeyDown(key: KeyCode.Alpha1))
+        for (int index = 0; index < nextStates.Length; index++)
         {
-            state = nextStates[0];
-        }
-        else if (Input.GetKeyDown(KeyCode.Alpha2))
-        {
-            state = nextStates[1];
-        }
-        else if (Input.GetKeyDown(KeyCode.H))
-        {
-            state = nextStates[2];
+            if (Input.GetKeyDown(key: KeyCode.Alpha1 + index))
+            {
+                state = nextStates[index];
+            }
+            else if (Input.GetKeyDown(KeyCode.H))
+            {
+                state = nextStates[0];
+            }
+            else if (Input.GetKeyDown(KeyCode.P))
+            {
+                state = nextStates[8];
+            }
         }
         textComponent.text = state.GetStateStory();
     }

@@ -14,4 +14,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   storyText: "Forkert :( \nPr\xF8v igen"
   nextStates:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   - {fileID: 11400000, guid: f4195a2210afcce4eab95d5238556c98, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
